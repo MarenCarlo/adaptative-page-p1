@@ -1,7 +1,6 @@
 import './App.css';
 import NavBar from './components/navbar';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import Container from '@mui/material/Container';
 
 function App() {
   const lightTheme = createTheme({
@@ -22,7 +21,6 @@ function App() {
     <div className="App">
       <ThemeProvider theme={lightTheme}>
         <NavBar />
-        <Container></Container>
       </ThemeProvider>
     </div>
   );
