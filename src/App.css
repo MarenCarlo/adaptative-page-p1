@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+
 }
 
 .App-logo {
@@ -12,10 +14,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
+.navBar {
   background-color: #282c34;
-  min-height: 100vh;
+}
+
+.App {
   display: flex;
   flex-direction: column;
   align-items: center;
