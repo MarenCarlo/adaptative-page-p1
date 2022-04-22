@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './components/navbar';
 import Header from './components/header';
 import Gallery from './components/gallery';
+import Footer from './components/footer';
 import Container from '@mui/material/Container';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
@@ -28,6 +29,7 @@ function App() {
           <Header />
           <Gallery />
         </Container>
+        <Footer />
       </ThemeProvider>
     </div>
   );
