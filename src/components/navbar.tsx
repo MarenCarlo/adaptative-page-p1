@@ -10,9 +10,9 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 
-const pages_right = ['Productos', 'Precios', 'Blog'];
+const pages_right = ['Novedades', 'Galeria', 'Blog'];
 const pages_left = [`Info`];
-const settings = ['Contacto', 'Serivicios', 'Alianzas', 'Testimoniales'];
+const settings = ['Contacto', 'Servicios', 'Alianzas'];
 
 const ResponsiveAppBar = () => {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
@@ -34,16 +34,16 @@ const ResponsiveAppBar = () => {
     };
 
     return (
-        <AppBar position="static" className="navBar">
+        <AppBar position="sticky" className="navBar">
             <Container maxWidth="md">
                 <Toolbar disableGutters>
                     <Typography
                         variant="h6"
                         noWrap
                         component="div"
-                        sx={{ mr: 4, display: { xs: 'none', md: 'flex' } }}
+                        sx={{ mr: 4, display: { xs: 'none', md: 'flex' }, fontFamily: 'Lobster, cursive', fontSize: '24pt' }}
                     >
-                        Adaptative
+                        Gallery
                     </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -86,9 +86,9 @@ const ResponsiveAppBar = () => {
                         variant="h6"
                         noWrap
                         component="div"
-                        sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+                        sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, fontFamily: 'Lobster, cursive', fontSize: '24pt' }}
                     >
-                        Adaptative
+                        Gallery
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages_right.map((page) => (
