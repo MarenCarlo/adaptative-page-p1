@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/navbar';
-import Header from './components/header'
+import Header from './components/header';
+import Gallery from './components/gallery';
 import Container from '@mui/material/Container';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
@@ -25,6 +26,7 @@ function App() {
         <NavBar />
         <Container maxWidth="lg" >
           <Header />
+          <Gallery />
         </Container>
       </ThemeProvider>
     </div>

@@ -28,18 +28,18 @@ const Header = () => {
                     <Typography
                         variant="h2"
                         component="div"
-                        sx={{ mr: 4, py: '10%', display: { xs: 'none', md: 'flex' }, fontFamily: 'Lobster, cursive', color: '#7F8277' }}
+                        sx={{ py: '10%', display: { xs: 'none', md: 'flex' }, fontFamily: 'Lobster, cursive', color: '#7F8277' }}
                     >
-                        Obra Más Valorada!
+                        Obra Más Valorada
                     </Typography>
                 </Grid>
                 <Grid sx={{ display: { lg: 'none', md: 'none' } }} item xs={12} md={6}>
                     <Typography
                         variant="h3"
                         component="div"
-                        sx={{ mr: 4, py: '10%', display: { lg: 'flex', md: 'none' }, fontFamily: 'Lobster, cursive', color: '#7F8277' }}
+                        sx={{ py: '10%', display: { lg: 'flex', md: 'none' }, fontFamily: 'Lobster, cursive', color: '#7F8277' }}
                     >
-                        Obra Más Valorada!
+                        Obra Más Valorada
                     </Typography>
                 </Grid>
                 <Grid sx={{ display: { xs: 'none', md: 'flex' }, align: 'center' }} item xs={12} md={6}>
@@ -52,7 +52,7 @@ const Header = () => {
                                     Alce Poligonal
                                 </Typography>
                                 <Typography variant="subtitle1" color="text.secondary" component="div">
-                                    Sirius Altair
+                                    @Sirius_Altair
                                 </Typography>
                             </CardContent>
                             <Box sx={{ display: 'flex', alignItems: 'center' }}>
@@ -84,7 +84,7 @@ const Header = () => {
                                     Alce Poligonal
                                 </Typography>
                                 <Typography variant="subtitle1" color="text.secondary" component="div">
-                                    Sirius Altair
+                                    @Sirius_Altair
                                 </Typography>
                             </CardContent>
                             <Box sx={{ display: 'block' }}>
@@ -125,7 +125,7 @@ const Header = () => {
                         elit. Exercitationem sint iste sunt recusandae nihil numquam, vero aliquid consectetur.
                     </Typography>
                     <Stack spacing={2} direction="row" sx={{ px: '2%', my: '-15%', display: { xs: 'none', md: 'flex' } }}>
-                        <Button variant="contained" sx={{ fontFamily: 'Arial', backgroundColor: '#1A73E8', color: '#FFFFFF' }}>
+                        <Button variant="contained" sx={{ fontFamily: 'Arial', backgroundColor: '#9E4757', color: '#FFFFFF' }}>
                             Saber Más...
                         </Button>
                         <Button variant="outlined" sx={{ fontFamily: 'Arial', borderColor: '#30A250', color: '#30A250' }}>
@@ -152,7 +152,7 @@ const Header = () => {
                         elit. Exercitationem sint iste sunt recusandae nihil numquam, vero aliquid consectetur.
                     </Typography>
                     <Stack spacing={2} direction="row" sx={{ alignContent: 'center', my: '4%', display: { xs: 'flex', md: 'none' } }}>
-                        <Button variant="contained" sx={{ fontFamily: 'Arial', backgroundColor: '#1A73E8', color: '#FFFFFF' }}>
+                        <Button variant="contained" sx={{ fontFamily: 'Arial', backgroundColor: '#9E4757', color: '#FFFFFF' }}>
                             Saber Más...
                         </Button>
                         <Button variant="outlined" sx={{ fontFamily: 'Arial', borderColor: '#30A250', color: '#30A250' }}>

@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 
-const pages_right = ['Novedades', 'Galeria', 'Blog'];
+const pages_right = ['Novedades', 'Galeria'];
 const pages_left = [`Info`];
 const settings = ['Contacto', 'Servicios', 'Alianzas'];
 
